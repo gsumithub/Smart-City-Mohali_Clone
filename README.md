@@ -1,5 +1,13 @@
 # Smart-City-Mohali_Clone
 A modern, responsive clone of the Smart City Mohali website’s home page, built using HTML5, CSS3, and JavaScript. This project faithfully replicates the UI, visuals, layouts, and interactive features of the official site with clean, organized, and scalable frontend code.
+
+https://github.com/user-attachments/assets/392de121-1a3e-4d28-9346-d3ba840f8fe5
+
+
+https://github.com/user-attachments/assets/afba9cd0-6b59-42f1-bc5d-3d3ec8f537e6
+
+
+https://github.com/user-attachments/assets/a6786326-4c08-48ef-a02a-26f6858ca2db
 🚀 Features
 ✅ Modern Frontend Stack
 
@@ -118,13 +126,7 @@ Anyone studying the structure of real websites
 
 
 
-https://github.com/user-attachments/assets/392de121-1a3e-4d28-9346-d3ba840f8fe5
 
-
-https://github.com/user-attachments/assets/afba9cd0-6b59-42f1-bc5d-3d3ec8f537e6
-
-
-https://github.com/user-attachments/assets/a6786326-4c08-48ef-a02a-26f6858ca2db
 
 
 
