@@ -16,7 +16,6 @@
     .menuicon{
         display: block;
     }
-    
     .headerright nav{
         z-index: 1;
         position: fixed;
@@ -241,3 +240,4 @@
     gap: 20px;
     }
 } 
+
