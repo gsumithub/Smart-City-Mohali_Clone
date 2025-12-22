@@ -3,11 +3,13 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartCityMohali</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/media.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     
 </head>
 <body>
@@ -69,7 +71,23 @@
         <button type="submit">Send</button>
     </form>
     <section class="banner">
-
+        <div class="owl-carousel owl-theme bannerSlider" id="bannerSlider">
+            <div class="item">
+                <figure class="banner1">
+                    <img src="images/banner1.jpg" alt="">
+                </figure>
+            </div>
+            <div class="item">
+                <figure class="banner2">
+                    <img src="images/banner2.jpg" alt="">
+                </figure>   
+            </div>
+            <div class="item">
+                <figure class="banner3">
+                    <img src="images/banner3.jpg" alt="">
+                </figure>
+            </div>
+        </div>
     </section>
     <section class="welcomeform">
         <div class="midwelcomeform">
@@ -85,32 +103,68 @@
     <section class="why">
         <h2> Why Smart City?</h2>
         <p>Your Dream Home Awaits you to Own Exquisite Site in the Smart City.</p>
-        <div class="whymid">
-            <figure class="whyitem1">
-            </figure>
-            <figure class="whyitem2">
-            </figure>
-            <figure class="whyitem3">
-            </figure>
-            <figure class="whyitem4">
-            </figure>
-            <figure class="whyitem5">
-            </figure>
-            <figure class="whyitem6">
-            </figure>
-            <figure class="whyitem7">
-            </figure>
-            <figure class="whyitem8">
-            </figure>
-            <figure class="whyitem9">
-            </figure>
-            <figure class="whyitem10">
-            </figure>
-            <figure class="whyitem11">
-            </figure>
-            <figure class="whyitem12">
-            </figure>
-        </div>
+        <div class="owl-carousel owl-theme whymid" id="whySlider">
+                    <div class="item">
+                        <figure class="whyitem1">
+                            <img src="images/1.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem2">
+                            <img src="images/2.png" alt="">
+                        </figure>   
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem3">
+                            <img src="images/3.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem4">
+                            <img src="images/4.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem5">
+                            <img src="images/5.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem6">
+                            <img src="images/6.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem7">
+                            <img src="images/7.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem8">
+                            <img src="images/8.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem9">
+                            <img src="images/9.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem10">
+                            <img src="images/10.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem11">
+                            <img src="images/11.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <figure class="whyitem12">
+                            <img src="images/12.png" alt="">
+                        </figure>
+                    </div>
+            </div>
     </section>
     <section class="overview">
         <div class="overviewmid">
@@ -384,35 +438,49 @@
         <h2>Amenities</h2>
         <p>Your Dream Home Awaits you to Own Exquisite Site in the Smart City Mohali Project.</p>
         <div class="amenitiesmid">
-            <div class="amenitiesscroll">
-                <div class="amenitiesitem">
-                    <img src="images/amenities/1.png" alt="">
-                    <p>Foliage Garden</p>
+            <div class="amenitiesscroll owl-carousel owl-theme " id="amenitiesSlider">
+                <div class="item">
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/1.png" alt="">
+                        <p>Foliage Garden</p>
+                    </div>
                 </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/2.png" alt="">
-                    <p>Butterfly Garden</p>
+                <div class="item">  
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/2.png" alt="">
+                        <p>Butterfly Garden</p>
+                    </div>
+                </div>      
+                <div class="item">
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/3.png" alt="">
+                        <p>Herb Garden</p>
+                    </div>
                 </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/3.png" alt="">
-                    <p>Herb Garden</p>
+                <div class="item">    
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/4.png" alt="">
+                        <p>Walkig Track</p>
+                    </div>
                 </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/4.png" alt="">
-                    <p>Walkig Track</p>
+                <div class="item">    
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/5.png" alt="">
+                        <p>Amphitheatre Style Seating</p>
+                    </div>
                 </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/5.png" alt="">
-                    <p>Amphitheatre Style Seating</p>
+                <div class="item">    
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/6.png" alt="">
+                        <p>Lawns</p>
+                    </div>
                 </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/6.png" alt="">
-                    <p>Lawns</p>
-                </div>
-                <div class="amenitiesitem">
-                    <img src="images/amenities/7.png" alt="">
-                    <p>Tree Courts</p>
-                </div>
+                <div class="item">    
+                    <div class="amenitiesitem">
+                        <img src="images/amenities/7.png" alt="">
+                        <p>Tree Courts</p>
+                    </div>
+                </div>    
             </div>    
         </div>
     </section>
@@ -586,5 +654,7 @@
         </div>
     </footer>
 </body>
-<script src='js/app.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/App.js"></script>
 </html>
