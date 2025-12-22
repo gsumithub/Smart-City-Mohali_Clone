@@ -1,134 +1,72 @@
-# Smart-City-Mohali_Clone
-A modern, responsive clone of the Smart City Mohali website’s home page, built using HTML5, CSS3, and JavaScript. This project faithfully replicates the UI, visuals, layouts, and interactive features of the official site with clean, organized, and scalable frontend code.
+# Smart City Mohali – Homepage Clone
 
-https://github.com/user-attachments/assets/392de121-1a3e-4d28-9346-d3ba840f8fe5
+A responsive homepage clone of the **Smart City Mohali** real estate website, built using **pure HTML5, CSS3, JavaScript, and jQuery**, with interactive UI components and carousel-based layouts.
 
 
-https://github.com/user-attachments/assets/afba9cd0-6b59-42f1-bc5d-3d3ec8f537e6
 
+https://github.com/user-attachments/assets/81c48952-39ff-442a-8e05-ac9af2f242c2
 
-https://github.com/user-attachments/assets/a6786326-4c08-48ef-a02a-26f6858ca2db
 
 
-🚀 Features
-✅ Modern Frontend Stack
+🔗 **Live Demo:**  
+https://gsumithub.github.io/Smart-City-Mohali_Clone/
 
-HTML5 for semantic structure and media embedding
+🔗 **Repository:**  
+https://github.com/gsumithub/Smart-City-Mohali_Clone.git
 
-CSS3 for responsive layouts, animations, and transitions
+---
 
-JavaScript for dynamic UI components and event handling
+## 🛠️ Tech Stack
+- **HTML5** – Semantic structure and accessibility
+- **CSS3** – Layouts, transitions, hover effects, responsiveness
+- **JavaScript (Vanilla JS)** – UI logic and interactions
+- **jQuery** – DOM manipulation and plugin integration
+- **Owl Carousel** – Banner, highlights, and amenities sliders
+- **Font Awesome** – Icons
+- **Google Maps & YouTube iFrames** – Embedded location & walkthroughs
 
-🧩 UI Components Included
-🔍 Lightbox Gallery with Overlay
+---
 
-Clickable image zoom
+## ✨ Features & Components
 
-Fullscreen modal view
+### 🔹 Interactive UI Components
+- Banner carousel with autoplay (Owl Carousel)
+- Multiple section sliders (Why Smart City, Amenities)
+- Floating action icons with hover animations
+- Lightbox gallery with overlay
+- Popup forms (Enquiry & Brochure download)
+- Mobile off-canvas navigation menu
+- FAQ accordion with smooth expand/collapse animation
 
-Dimmed overlay for visual focus
+### 🔹 jQuery Integration
+- Owl Carousel implemented in **3 sections**:
+  - Hero banner
+  - “Why Smart City” highlights
+  - Amenities slider
+- DOM-ready initialization for stable deployment
+- Clean separation of JS logic for UI behavior
 
-Smooth fade-in/out animation
+### 🔹 Responsiveness
+- Fully responsive across **mobile, tablet, and desktop**
+- Custom media queries
+- Touch-friendly sliders and navigation
+- Adaptive layouts for content-heavy sections
 
-💬 Popups & Modal Windows
+---
 
-Responsive custom popups
+## 🚀 Deployment Notes
+- Deployed using **GitHub Pages**
+- Resolved real-world case-sensitivity issue (`App.js` vs `app.js`) during deployment
+- Ensured proper script loading order for jQuery and Owl Carousel
 
-Animated appearance/disappearance
+---
 
-Close via button or clicking overlay
+## 📌 Disclaimer
+This project is created **strictly for learning and frontend practice purposes**.  
+All content, branding, and assets belong to their respective owners.
 
-📱 Mobile Side Canvas Menu
+---
 
-Off-canvas navigation for mobile screens
-
-Slide-in/slide-out animation
-
-Overlay darkening for improved user experience
-
-JavaScript-powered toggle interactions
-
-🎯 Floating Action Icons
-
-Persistent floating icons for CTA actions
-
-Hover-triggered label reveal
-
-Clean, responsive, minimal design
-
-🌍 Embedded Google Maps (iframe)
-
-Interactive map view for location showcase
-
-Responsive, adaptive container
-
-Fully compatible across devices
-
-🎥 Embedded YouTube Video (iframe)
-
-Integrated promotional or informational video
-
-Maintains aspect ratio on all screen sizes
-
-Smooth scaling for mobile and desktop
-
-❓ FAQ Section with Smooth Expand/Collapse
-
-Clean, modern FAQ accordion design
-
-Click-to-expand answers with smooth CSS transitions
-
-Only one open at a time (optional)
-
-JavaScript-driven height animation for natural movement
-
-Enhances user experience with an intuitive Q/A interaction pattern
-
-📱💻 Fully Responsive Design
-
-Optimized for all major resolutions:
-
-Mobile Phones
-
-Tablets / iPads
-
-Laptops & Desktops
-
-Responsive design techniques include:
-
-CSS Flexbox & Grid
-
-Fluid spacing and typography
-
-Scaled iframes and images
-
-Breakpoints for adaptive layout shifts
-
-🎨 What This Project Demonstrates
-
-Real-world website layout replication
-
-HTML5 structure + iframe integration
-
-CSS3 animation mastery (lightbox, menus, FAQ, overlays)
-
-JavaScript for UI logic & interactive components
-
-Clean, reusable, scalable frontend code
-
-📁 Ideal For
-
-Web developers learning responsive UI cloning
-
-Students practicing JS interactivity
-
-Portfolio-building frontend projects
-
-Anyone studying the structure of real websites
-
-
-
-
-
-
-
+## 📬 Feedback
+Suggestions and improvements are welcome.  
+Feel free to fork or raise issues!
