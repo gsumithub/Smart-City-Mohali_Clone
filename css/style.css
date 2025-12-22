@@ -40,7 +40,12 @@ header{
 .headerright a{
     color: black;
     font-size: 16px;
+    text-decoration: none;
 }
+.headerright a:hover{
+    color: #306598;
+    text-decoration: underline coral;
+}    
 .menuicon{
     display: none;
     cursor: pointer;
@@ -66,10 +71,16 @@ header{
 .banner{
     width: 100%;
     height: 600px;
-    background-image: url(../images/banner1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+#bannerSlider{
+        position: relative;
+    }
+   #bannerSlider .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 .popup{
     display: flex;
@@ -236,11 +247,8 @@ header{
 .whymid{
     max-width: 1140px;
     margin: auto;
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
 }
-.whyitem1{
+/* .whyitem1{
     background-image: url(../images/1.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -311,11 +319,11 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-.whyitem1, .whyitem2, .whyitem3, .whyitem4, .whyitem5, .whyitem6, .whyitem7, .whyitem8, .whyitem9, .whyitem10, .whyitem11, .whyitem12{
+} */
+/* .whyitem1, .whyitem2, .whyitem3, .whyitem4, .whyitem5, .whyitem6, .whyitem7, .whyitem8, .whyitem9, .whyitem10, .whyitem11, .whyitem12{
     min-width: 370px;
     height: 250px;
-}
+} */
 .overview{
     width: 100%;
     background: white;
@@ -716,13 +724,15 @@ header{
 }   
 .expitem{
     padding: 20px;
-    width: 570px;
-    height: 350px;
+    width: 100%;
+    max-width: 570px;
+    height: auto;
     margin: auto;
 }
 .expitem iframe{
     width: 100%;
-    height: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 .site{
     width: 100%;
@@ -787,14 +797,15 @@ header{
 }
 .amenitiesscroll{
     width: 100%;
-    display: flex;
-    overflow-x: auto;
-    gap: 50px;
     cursor: grab;
 }
-.amenitiesitem{
-    min-width: 200px;
+/* .amenitiesitem{
     height: fit-content;
+} */
+.amenitiesitem img{
+    width: 50px !important;
+    margin: auto;
+    height: 50px;
 }
 .amenitiesitem p{ 
     font-size: 20px;
@@ -971,4 +982,30 @@ footer{
 }
 .icon:hover figure img{
     transform: rotate(360deg);
+}
+.owl-carousel {
+    width: 100%;
+}
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-item {
+    display: block;
+}
+
+.whymid .item,
+#amenitiesSlider .item {
+    width: 100%;
+}
+.whymid img,
+#amenitiesSlider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.whymid .item figure,
+.amenitiesitem{
+    margin: auto;
 }
