@@ -56,7 +56,7 @@ https://github.com/gsumithub/Smart-City-Mohali_Clone.git
 
 ## 🚀 Deployment Notes
 - Deployed using **GitHub Pages**
-- Resolved real-world case-sensitivity issue (`App.js` vs `app.js`) during deployment
+- Resolved real-world case-sensitivity issue
 - Ensured proper script loading order for jQuery and Owl Carousel
 
 ---
