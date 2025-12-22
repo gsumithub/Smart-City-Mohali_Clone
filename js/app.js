@@ -89,7 +89,7 @@ downloadBtn.addEventListener("click", () => {
 closeDownloadBtn.addEventListener("click", () => {
     downloadPopup.style.top = "-1000px";
 });
-
+//banner slider
 $('#bannerSlider').owlCarousel({
     loop:true,
     margin:10,
@@ -109,7 +109,7 @@ $('#bannerSlider').owlCarousel({
         }
     }
 })
-
+//why slider
 $('#whySlider').owlCarousel({
     loop:true,
     margin:10,
@@ -129,7 +129,7 @@ $('#whySlider').owlCarousel({
         }
     }
 })
-
+//amenities slider
 $('#amenitiesSlider').owlCarousel({
     loop:true,
     margin:10,
@@ -240,4 +240,5 @@ downloadBtn.addEventListener("click", () => {
 closeDownloadBtn.addEventListener("click", () => {
     downloadPopup.style.top = "-1000px";
 });
+
 
